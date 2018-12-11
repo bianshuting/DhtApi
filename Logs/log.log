@@ -1,0 +1,11 @@
+2018-12-07 12:00:05.985 [INFO ] com.monitor.dht_api.handler.DhtHandler - 请求头参数:application/json;charset=utf-8
+2018-12-07 12:00:05.986 [INFO ] com.monitor.dht_api.handler.DhtHandler - 请求方式:post
+2018-12-07 12:00:05.987 [INFO ] com.monitor.dht_api.handler.DhtHandler - 请求url:http://111.164.185.77:9999/vpnServer/query
+2018-12-07 12:00:05.987 [INFO ] com.monitor.dht_api.handler.DhtHandler - 请求body体：{"id":"kpK7DI","version":"1","account":"025055429e88f157b8c07b1e19a585b72412e797512a420380b20628"}
+2018-12-07 12:00:08.346 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://111.164.185.77:9999
+2018-12-07 12:00:08.355 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 111.164.185.77:9999
+2018-12-07 12:00:29.356 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@33fe57a9 closed
+2018-12-07 12:00:29.357 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@33fe57a9 shut down
+2018-12-07 12:00:29.357 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4982cc36
+2018-12-07 12:00:29.373 [INFO ] com.monitor.dht_api.handler.DhtHandler - 请求失败，无返回内容！
+2018-12-07 12:00:29.373 [INFO ] com.monitor.dht_api.handler.DhtHandler - 失败原因：Connection timed out: connect
